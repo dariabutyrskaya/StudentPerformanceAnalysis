@@ -1,9 +1,9 @@
 # StudentPerformanceAnalysis
 
-#Introduction
+Introduction
 The data given was collected from a fully online nine-week-long course on machine learning. The goal of this mini-project is to use two different approaches to predict students’ final grades in an online course. 
 
-#Data collection
+Data collection
 The given data contains several types:
 •	Status0: course / lectures / content related
 •	Status1: assignment related 
@@ -18,7 +18,7 @@ Another thing to mention, some students seem to take the class but did not parti
 
 But in my opinion, we cannot disregard such students, because maybe they have this course as mandatory, so they should get the mark they deserve – 0.
 
-#Feature selection
+Feature selection
 Feature selection was based on logic and requirements:
 1.	In the project description it was said that we should use week8_total because it is an overall grade.
 2.	All features of Status0 group contains course-related information, that has no effect on grade. Therefore, it is not useful information for grade prediction, and we have to drop it.
@@ -70,7 +70,7 @@ The visualization was made with the help of bars in order to make it more unders
 
 Fig. 4. Importance of feature in grading. 
 
-#Conclusion
+Conclusion
 The bottleneck faced:
 •	Linear regression was not performing well in the first try. After correcting the testing set (making sure that it is not all zeros), the model performed perfectly. 
 •	For the linear model the overall score for every student was created to get input X value 
