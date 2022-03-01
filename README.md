@@ -48,12 +48,21 @@ Coefficient of determination: 0.95.
 
 
  ![image](https://user-images.githubusercontent.com/90958123/156223875-9ad9a2fd-2563-449d-bbae-d574ece2be2d.png)
+ 
+ 
+ 
 Fig. 2. Linear Regression Output.
 
 
 Comparing accuracy of two models, we can see, that Linear Regression was more accurate during grades prediction (see fig. 3).
 
+
+
+
  ![image](https://user-images.githubusercontent.com/90958123/156223906-89ba78fc-5203-4b69-b79c-f6c37e1617c4.png)
+ 
+ 
+ 
 
 Fig. 3. Comparing accuracy of two models.
 
@@ -66,7 +75,13 @@ By visualizing feature by the order of importance in grading the student (see fi
 
 The visualization was made with the help of bars in order to make it more understandable for users.  
 
+
+
+
  ![image](https://user-images.githubusercontent.com/90958123/156223947-9943e97c-2622-4755-9f80-04644157a0f3.png)
+
+
+
 
 Fig. 4. Importance of feature in grading. 
 
